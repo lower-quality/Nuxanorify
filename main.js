@@ -132,11 +132,6 @@ function nuxifyTitle(title) {
         .replace(generateRegex("MNIE"), "NAS")
         .replace(generateRegex("mnie"), "nas")
 
-        // dla mnie -> dla nas (for me -> for us)
-        .replace(generateRegex("Dla mnie"), "Dla nas")
-        .replace(generateRegex("DLA MNIE"), "DLA NAS")
-        .replace(generateRegex("dla mnie"), "dla nas")
-
         // moim -> naszym
         .replace(generateRegex("Moim"), "Naszym")
         .replace(generateRegex("MOIM"), "NASZYM")
