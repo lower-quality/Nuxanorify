@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Nuxanorify",
+    "description": "Adds Nux Taku to YouTube thumbnails and replaces singular first-person pronouns with plural equivalents in titles",
+    "version": "1.0",
+    "permissions": [],
+    "icons": {
+        "512": "icon.png"
+    },
+    "content_scripts": [
+        {
+            "js": ["main.js"],
+            "matches": [
+                "https://*.youtube.com/*"
+            ]
+        }
+    ]
+}
