@@ -86,6 +86,82 @@ function nuxifyTitle(title) {
         .replace(generateRegex("AM"), "ARE")
         .replace(generateRegex("Am"), "Are")
 
+        // POLISH
+        // ja -> my
+        .replace(generateRegex("Ja"), "My")
+        .replace(generateRegex("JA"), "MY")
+        .replace(generateRegex("ja"), "my")
+
+        // jestem -> jesteśmy
+        .replace(generateRegex("Jestem"), "Jesteśmy")
+        .replace(generateRegex("JESTEM"), "JESTEŚMY")
+        .replace(generateRegex("jestem"), "jesteśmy")
+
+        // mam -> mamy
+        .replace(generateRegex("Mam"), "Mamy")
+        .replace(generateRegex("MAM"), "MAMY")
+        .replace(generateRegex("mam"), "mamy")
+
+        // mnie -> nas
+        .replace(generateRegex("Mnie"), "Nas")
+        .replace(generateRegex("MNIE"), "NAS")
+        .replace(generateRegex("mnie"), "nas")
+
+        // mój -> nasz
+        .replace(generateRegex("Mój"), "Nasz")
+        .replace(generateRegex("MÓJ"), "NASZ")
+        .replace(generateRegex("mój"), "nasz")
+
+        // moja -> nasza
+        .replace(generateRegex("Moja"), "Nasza")
+        .replace(generateRegex("MOJA"), "NASZA")
+        .replace(generateRegex("moja"), "nasza")
+
+        // moje -> nasze
+        .replace(generateRegex("Moje"), "Nasze")
+        .replace(generateRegex("MOJE"), "NASZE")
+        .replace(generateRegex("moje"), "nasze")
+
+        // moje -> nasze (when "moje" is masculine)
+        .replace(generateRegex("Mojego"), "Naszego")
+        .replace(generateRegex("MOJEGO"), "NASZEGO")
+        .replace(generateRegex("mojego"), "naszego")
+
+        // mnie -> nas (in accusative case)
+        .replace(generateRegex("Mnie"), "Nas")
+        .replace(generateRegex("MNIE"), "NAS")
+        .replace(generateRegex("mnie"), "nas")
+
+        // dla mnie -> dla nas (for me -> for us)
+        .replace(generateRegex("Dla mnie"), "Dla nas")
+        .replace(generateRegex("DLA MNIE"), "DLA NAS")
+        .replace(generateRegex("dla mnie"), "dla nas")
+
+        // moim -> naszym
+        .replace(generateRegex("Moim"), "Naszym")
+        .replace(generateRegex("MOIM"), "NASZYM")
+        .replace(generateRegex("moim"), "naszym")
+
+        // będę -> będziemy
+        .replace(generateRegex("Będę"), "Będziemy")
+        .replace(generateRegex("BĘDĘ"), "BĘDZIEMY")
+        .replace(generateRegex("będę"), "będziemy")
+
+        // bym -> byśmy
+        .replace(generateRegex("Bym"), "Byśmy")
+        .replace(generateRegex("BYM"), "BYŚMY")
+        .replace(generateRegex("bym"), "byśmy")
+
+        // muszę -> musimy
+        .replace(generateRegex("Muszę"), "Musimy")
+        .replace(generateRegex("MUSZĘ"), "MUSIMY")
+        .replace(generateRegex("muszę"), "musimy")
+
+        // potrzebuję -> potrzebujemy
+        .replace(generateRegex("Potrzebuję"), "Potrzebujemy")
+        .replace(generateRegex("POTRZEBUJĘ"), "POTRZEBUJEMY")
+        .replace(generateRegex("potrzebuję"), "potrzebujemy");
+    
     return newTitle
 }
 
