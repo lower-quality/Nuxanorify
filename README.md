@@ -13,7 +13,7 @@ Contributions are welcome. I made this extension in 2 hours on a train so it mig
 ### Chrome (and Chromium-based browsers)
 1. Go to `chrome://extensions` (you need to copy and paste it)
 2. Turn on "Developer mode"
-3. Download [this .zip file](https://github.com/lower-quality/Nuxanorify/releases/latest/nuxanorify.zip)
+3. Download [this .zip file](https://github.com/lower-quality/Nuxanorify/releases/download/latest/nuxanorify.zip)
 4. Make a new folder and unzip it here
 5. Click "Load unpacked" and select the folder that you just made
 
@@ -22,6 +22,6 @@ Contributions are welcome. I made this extension in 2 hours on a train so it mig
 > You need to do this every time you restart your browser. No idea why, probably for safety.
 
 1. Go to `about:debugging#/runtime/this-firefox` (you need to copy and paste it)
-2. Download [this .zip file](https://github.com/lower-quality/Nuxanorify/releases/latest/nuxanorify.zip)
+2. Download [this .zip file](https://github.com/lower-quality/Nuxanorify/releases/download/latest/nuxanorify.zip)
 3. Make a new folder and unzip it here
 5. Click "Load Temporary Add-on..." and select any file in the folder that you just made
