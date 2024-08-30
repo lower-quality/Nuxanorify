@@ -7,7 +7,9 @@ Contributions are welcome. I made this extension in 2 hours on a train so it mig
 
 ## Download
 > [!IMPORTANT]  
-> I have uploaded the extension to Chrome Web Store and Firefox Add-ons, but Google and Mozilla needs to review the extension before you can download it. For now, you need to manually install it.
+> I have uploaded the extension to Chrome Web Store, but Google needs to review the extension before you can download it. For now, you need to manually install it if you're using Chrome.
+
+[![](https://blog.mozilla.org/addons/files/2015/11/get-the-addon.png)](https://addons.mozilla.org/en-US/firefox/addon/nuxanorify/)
 
 ## Manual install
 ### Chrome (and Chromium-based browsers)
